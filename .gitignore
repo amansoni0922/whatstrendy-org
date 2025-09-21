@@ -122,8 +122,19 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores VSCode versions used for testing VSCode extensions
+# VS Code files and directories
+.vscode/
 .vscode-test
+*.code-workspace
+
+# Mac files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # yarn v3
 .pnp.*
